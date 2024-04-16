@@ -85,7 +85,7 @@ body {
 	padding-right:10px;
 }
 #iffs {
-	flex:0 1 auto;
+	flex:1 1 0%;
 }
 #iyd2 {
 	align-items:center;
