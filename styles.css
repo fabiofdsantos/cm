@@ -349,16 +349,19 @@ body {
 	width:100%;
 	gap:20px;
 	align-items:center;
+	padding-bottom:0px;
 }
 #it3yug {
 	padding:10px;
 	padding-left:0px;
 	padding-right:0px;
+	padding-top:0px;
 }
 #i8gt4n {
 	padding:10px;
 	padding-left:0px;
 	padding-right:0px;
+	padding-top:0px;
 }
 #ixzdlj {
 	color:black;
@@ -391,6 +394,7 @@ body {
 	width:100%;
 	gap:20px;
 	align-items:center;
+	padding-bottom:0px;
 }
 #idndjn {
 	justify-content:flex-start;
@@ -430,8 +434,9 @@ body {
 	gap:30px;
 	flex:0 1 auto;
 	justify-content:center;
-	margin-top:30px;
+	margin-top:10px;
 	margin-bottom:30px;
+	padding-top:5px;
 }
 .gjs-button {
 	vertical-align:top;
