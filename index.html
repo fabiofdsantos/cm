@@ -30,6 +30,30 @@
     
       gtag('config', 'AW-11316467618');
     </script>
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-11316467618/hkWqCPSktq4ZEKKvjpQq',
+            'event_callback': callback
+        });
+      }
+      document.addEventListener('DOMContentLoaded', function() {
+        document.body.addEventListener('click', function(event) {
+          var target = event.target;
+          while (target && target.tagName !== 'A') {
+            target = target.parentNode;
+          }
+          if (target && target.href && target.href.includes('https://api.whatsapp.com')) {
+            gtag_report_conversion(target.href);
+          }
+        });
+      });
+    </script>
   </head>
   <body id="iau9">
     <div id="i6po" class="gjs-grid-row">
