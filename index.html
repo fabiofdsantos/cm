@@ -31,11 +31,9 @@
       gtag('config', 'AW-11316467618');
     </script>
     <script>
-      function gtag_report_conversion(url) {
+  function gtag_report_conversion(url) {
         var callback = function () {
-          if (typeof(url) != 'undefined') {
-            window.location = url;
-          }
+          // This callback doesn't need to change the location because the link itself handles opening in a new tab.
         };
         gtag('event', 'conversion', {
             'send_to': 'AW-11316467618/hkWqCPSktq4ZEKKvjpQq',
