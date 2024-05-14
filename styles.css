@@ -240,11 +240,6 @@ body {
 #in9ef {
 	font-size:1.5rem;
 }
-#i8isa {
-	padding:10px;
-	padding-left:0px;
-	padding-right:0px;
-}
 #i8w4i {
 	max-width:1200px;
 	display:flex;
@@ -275,7 +270,7 @@ body {
 	width:100%;
 	flex-wrap:wrap;
 	justify-content:flex-start;
-	gap:50px;
+	gap:40px;
 }
 .gjs-grid-column.feature-item {
 	padding-top:15px;
@@ -290,7 +285,7 @@ body {
 #ia21sa {
 	padding:10px;
 	max-width:750px;
-	margin-bottom:40px;
+	margin-bottom:30px;
 	padding-left:0px;
 	padding-right:0px;
 }
